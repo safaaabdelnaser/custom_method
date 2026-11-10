@@ -1,20 +1,14 @@
-path: /home/mg/DeepPCR/abdelrahman/Safaa/datasets/ShipRSI-1
-
-train: train/images
-val: valid/images
-test: test/images
-
 names:
-- Bulk Carrier
-- Container Ship
-- Craft
-- Fish Carrier
-- General Cargo
-- Ore Carrier
-- Passenger
-- Platform
-- Tanker
-- Trawler
+  - Bulk Carrier
+  - Container Ship
+  - Craft
+  - Fish Carrier
+  - General Cargo
+  - Ore Carrier
+  - Passenger
+  - Platform
+  - Tanker
+  - Trawler
 nc: 10
 roboflow:
   license: CC BY 4.0
@@ -22,4 +16,6 @@ roboflow:
   url: https://universe.roboflow.com/lastversionfusar/fusar_last/dataset/3
   version: 3
   workspace: lastversionfusar
-
+test: /kaggle/working/FUSAR_LAST-3/test/images
+train: /kaggle/working/FUSAR_LAST-3/train/images
+val: /kaggle/working/FUSAR_LAST-3/valid/images
