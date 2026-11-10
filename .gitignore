@@ -1,0 +1,8 @@
+
+# Training results and model weights
+runs/
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
